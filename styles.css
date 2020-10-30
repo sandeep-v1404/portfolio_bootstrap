@@ -123,6 +123,11 @@ nav {
   background-color: var(--primary-color);
   color: var(--background-color);
 }
+.btn-orange a,
+.btn-dark a {
+  color: var(--background-color);
+  text-decoration: none;
+}
 #projects {
   background-color: transparent !important;
   height: 100%;
