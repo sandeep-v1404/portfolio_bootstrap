@@ -117,11 +117,9 @@ nav {
 }
 .btn-orange {
   background-color: var(--secondary-color);
-  color: var(--primary-color);
 }
 .btn-orange:hover {
   background-color: var(--primary-color);
-  color: var(--background-color);
 }
 .btn-orange a,
 .btn-dark a {
