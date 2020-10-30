@@ -1,8 +1,8 @@
-AOS.init({
-  offset: 500, // offset (in px) from the original trigger point
-  delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 1000, // values from 0 to 3000, with step 50ms
-});
+// AOS.init({
+//   offset: 500, // offset (in px) from the original trigger point
+//   delay: 0, // values from 0 to 3000, with step 50ms
+//   duration: 1000, // values from 0 to 3000, with step 50ms
+// });
 let color = ["white", "black"];
 let toastTitle = ["Dark Mode", "Light Mode"];
 let icons = ["fa-moon-o", "fa-sun-o"];
