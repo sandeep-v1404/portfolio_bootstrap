@@ -13,14 +13,14 @@ let button = document.getElementById("toggle-ld");
 let toggle = document.getElementById("toggle");
 let projectsText = document.getElementById("projects");
 let i = 0;
-button.addEventListener("click", function () {
-  i++;
-  body.style.background = color[i];
-  button.setAttribute("title", toastTitle[i]);
-  toggle.classList.remove(icons[0]);
-  toggle.classList.add(icons[i]);
-  // projectsText.style.color = textColor[i];
-  if (i === color.length - 1) {
-    i = -1;
-  }
+button.addEventListener("click", function() {
+    i++;
+    body.style.background = color[i];
+    button.setAttribute("title", toastTitle[i]);
+    toggle.classList.remove(icons[0]);
+    toggle.classList.add(icons[i]);
+    // projectsText.style.color = textColor[i];
+    if (i === color.length - 1) {
+        i = -1;
+    }
 });
